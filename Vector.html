@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Utilities Library</title>
     
-    <meta name="description" content="library for managing vectors, matrices, integers" />
+    <meta name="description" content="library to manage vectors, matrices, numbers and strings" />
     
         <meta name="keywords" content="Library" />
         <meta name="keyword" content="Library" />
@@ -32,7 +32,7 @@
 
     
     <script>
-    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Utilities Library","disqus":"","googleAnalytics":"","openGraph":{"title":"Utilities Library Docs","type":"website","image":"","site_name":"","url":""},"meta":{"title":"Utilities Library","description":"library for managing vectors, matrices, integers","keyword":"Library"},"linenums":true,"source":{"include":["./dist/"],"includePattern":".+\\.js(doc)?$","excludePattern":"(^|\\/|\\\\)_"},"opts":{"encoding":"utf8","recurse":true,"private":false,"lenient":true,"destination":"./docs","template":"./node_modules/@pixi/jsdoc-template"},"default":{}};
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Utilities Library","disqus":"","googleAnalytics":"","openGraph":{"title":"Utilities Library Docs","type":"website","image":"","site_name":"","url":""},"meta":{"title":"Utilities Library","description":"library to manage vectors, matrices, numbers and strings","keyword":"Library"},"linenums":true,"source":{"include":["./dist/"],"includePattern":".+\\.js(doc)?$","excludePattern":"(^|\\/|\\\\)_"},"opts":{"encoding":"utf8","recurse":true,"private":false,"lenient":true,"destination":"./docs","template":"./node_modules/@pixi/jsdoc-template"},"default":{}};
     </script>
     
 
@@ -190,9 +190,13 @@
             
                 <li class="parent  " data-name="Vector#cargar"><a href="Vector.html#cargar">cargar</a></li>
             
+                <li class="parent  " data-name="Vector#cargarDigitos"><a href="Vector.html#cargarDigitos">cargarDigitos</a></li>
+            
                 <li class="parent  " data-name="Vector#cargarElementoXElemento"><a href="Vector.html#cargarElementoXElemento">cargarElementoXElemento</a></li>
             
                 <li class="parent  " data-name="Vector#cargarFrecuencia"><a href="Vector.html#cargarFrecuencia">cargarFrecuencia</a></li>
+            
+                <li class="parent  " data-name="Vector#cargarSerie1"><a href="Vector.html#cargarSerie1">cargarSerie1</a></li>
             
                 <li class="parent  " data-name="Vector#cargarSerieAritmetica"><a href="Vector.html#cargarSerieAritmetica">cargarSerieAritmetica</a></li>
             
@@ -220,6 +224,8 @@
             
                 <li class="parent  " data-name="Vector#eliminarElementosDelVectorIndicandoLasPosiciones"><a href="Vector.html#eliminarElementosDelVectorIndicandoLasPosiciones">eliminarElementosDelVectorIndicandoLasPosiciones</a></li>
             
+                <li class="parent  " data-name="Vector#eliminarNumero"><a href="Vector.html#eliminarNumero">eliminarNumero</a></li>
+            
                 <li class="parent  " data-name="Vector#encontrarElementoMenosRepetidoEntreUnSegmento"><a href="Vector.html#encontrarElementoMenosRepetidoEntreUnSegmento">encontrarElementoMenosRepetidoEntreUnSegmento</a></li>
             
                 <li class="parent  " data-name="Vector#encontrarLaFrecuenciaDeDistribucioNumeroreUnSegmento"><a href="Vector.html#encontrarLaFrecuenciaDeDistribucioNumeroreUnSegmento">encontrarLaFrecuenciaDeDistribucioNumeroreUnSegmento</a></li>
@@ -245,8 +251,6 @@
                 <li class="parent  " data-name="Vector#ordenamientoPorIntercambio"><a href="Vector.html#ordenamientoPorIntercambio">ordenamientoPorIntercambio</a></li>
             
                 <li class="parent  " data-name="Vector#ordenamientoPorSeleccion"><a href="Vector.html#ordenamientoPorSeleccion">ordenamientoPorSeleccion</a></li>
-            
-                <li class="parent  " data-name="Vector#ordenarElementosDeUnSegmento"><a href="Vector.html#ordenarElementosDeUnSegmento">ordenarElementosDeUnSegmento</a></li>
             
                 <li class="parent  " data-name="Vector#pertenencia"><a href="Vector.html#pertenencia">pertenencia</a></li>
             
@@ -308,6 +312,54 @@
             
                 <li class="parent  " data-name="module:Cadena~Cadena#cargar"><a href="module-Cadena-Cadena.html#cargar">cargar</a></li>
             
+                <li class="parent  " data-name="module:Cadena~Cadena#contarCaracter"><a href="module-Cadena-Cadena.html#contarCaracter">contarCaracter</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#contarLetras"><a href="module-Cadena-Cadena.html#contarLetras">contarLetras</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#contarPalabras"><a href="module-Cadena-Cadena.html#contarPalabras">contarPalabras</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#contarVocales"><a href="module-Cadena-Cadena.html#contarVocales">contarVocales</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#descargar"><a href="module-Cadena-Cadena.html#descargar">descargar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminar"><a href="module-Cadena-Cadena.html#eliminar">eliminar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarCaracter"><a href="module-Cadena-Cadena.html#eliminarCaracter">eliminarCaracter</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarHastaPrimerPalabra"><a href="module-Cadena-Cadena.html#eliminarHastaPrimerPalabra">eliminarHastaPrimerPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarLetras"><a href="module-Cadena-Cadena.html#eliminarLetras">eliminarLetras</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarNumeros"><a href="module-Cadena-Cadena.html#eliminarNumeros">eliminarNumeros</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarPrimerLetraDeCadaPalabra"><a href="module-Cadena-Cadena.html#eliminarPrimerLetraDeCadaPalabra">eliminarPrimerLetraDeCadaPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarPrimerPalabra"><a href="module-Cadena-Cadena.html#eliminarPrimerPalabra">eliminarPrimerPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarUltimaLetraDeCadaPalabra"><a href="module-Cadena-Cadena.html#eliminarUltimaLetraDeCadaPalabra">eliminarUltimaLetraDeCadaPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarVocales"><a href="module-Cadena-Cadena.html#eliminarVocales">eliminarVocales</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#esPalindromo"><a href="module-Cadena-Cadena.html#esPalindromo">esPalindromo</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#insertar"><a href="module-Cadena-Cadena.html#insertar">insertar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#invertir"><a href="module-Cadena-Cadena.html#invertir">invertir</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#palabraMasLarga"><a href="module-Cadena-Cadena.html#palabraMasLarga">palabraMasLarga</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#palabraMenosLarga"><a href="module-Cadena-Cadena.html#palabraMenosLarga">palabraMenosLarga</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#primerPalabra"><a href="module-Cadena-Cadena.html#primerPalabra">primerPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#remplazar"><a href="module-Cadena-Cadena.html#remplazar">remplazar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena.esDigito"><a href="module-Cadena-Cadena.html#.esDigito">esDigito</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena.esLetra"><a href="module-Cadena-Cadena.html#.esLetra">esLetra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena.esVocal"><a href="module-Cadena-Cadena.html#.esVocal">esVocal</a></li>
+            
             </ul>
             
             <ul class="events itemMembers">
@@ -344,9 +396,27 @@
             
                 <li class="parent  " data-name="module:Matriz~Matriz#cargar"><a href="module-Matriz-Matriz.html#cargar">cargar</a></li>
             
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarCaracol"><a href="module-Matriz-Matriz.html#cargarCaracol">cargarCaracol</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarCuadradoMagico"><a href="module-Matriz-Matriz.html#cargarCuadradoMagico">cargarCuadradoMagico</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiagonalesPrincipalesTriangularInferiorIzquierda"><a href="module-Matriz-Matriz.html#cargarDiagonalesPrincipalesTriangularInferiorIzquierda">cargarDiagonalesPrincipalesTriangularInferiorIzquierda</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiagonalesSecundarias"><a href="module-Matriz-Matriz.html#cargarDiagonalesSecundarias">cargarDiagonalesSecundarias</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiagonalesSecundariasUpBottomUp"><a href="module-Matriz-Matriz.html#cargarDiagonalesSecundariasUpBottomUp">cargarDiagonalesSecundariasUpBottomUp</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiana"><a href="module-Matriz-Matriz.html#cargarDiana">cargarDiana</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarL"><a href="module-Matriz-Matriz.html#cargarL">cargarL</a></li>
+            
                 <li class="parent  " data-name="module:Matriz~Matriz#cargarSerieAritmetica"><a href="module-Matriz-Matriz.html#cargarSerieAritmetica">cargarSerieAritmetica</a></li>
             
                 <li class="parent  " data-name="module:Matriz~Matriz#cargarSerieGeometrica"><a href="module-Matriz-Matriz.html#cargarSerieGeometrica">cargarSerieGeometrica</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarViboraPorColumnas"><a href="module-Matriz-Matriz.html#cargarViboraPorColumnas">cargarViboraPorColumnas</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarViboraPorFilas"><a href="module-Matriz-Matriz.html#cargarViboraPorFilas">cargarViboraPorFilas</a></li>
             
                 <li class="parent  " data-name="module:Matriz~Matriz#contarCapicuasColumna"><a href="module-Matriz-Matriz.html#contarCapicuasColumna">contarCapicuasColumna</a></li>
             
@@ -465,58 +535,6 @@
                 <li class="parent  " data-name="module:Matriz~Matriz#verificarTodosDiferentes"><a href="module-Matriz-Matriz.html#verificarTodosDiferentes">verificarTodosDiferentes</a></li>
             
                 <li class="parent  " data-name="module:Matriz~Matriz#verificarTodosIguales"><a href="module-Matriz-Matriz.html#verificarTodosIguales">verificarTodosIguales</a></li>
-            
-            </ul>
-            
-            <ul class="events itemMembers">
-            
-            </ul>
-            
-        </li>
-    
-        <li class="item" data-name="module:Numero~Numero">
-            <span class="title  ">
-                
-                
-                    <a href="module-Numero-Numero.html">module:Numero~Numero</a>
-                
-            </span>
-            
-            <ul class="members itemMembers">
-            
-            </ul>
-            
-            <ul class="typedefs itemMembers">
-            
-            </ul>
-            
-            <ul class="typedefs itemMembers">
-            
-            </ul>
-            
-            <ul class="methods itemMembers">
-            
-            <span class="subtitle">Methods</span>
-            
-                <li class="parent  " data-name="module:Numero~Numero#cargar"><a href="module-Numero-Numero.html#cargar">cargar</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#descargar"><a href="module-Numero-Numero.html#descargar">descargar</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esCapicua"><a href="module-Numero-Numero.html#esCapicua">esCapicua</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esCuadradoPerfecto"><a href="module-Numero-Numero.html#esCuadradoPerfecto">esCuadradoPerfecto</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esFibonacci"><a href="module-Numero-Numero.html#esFibonacci">esFibonacci</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esPar"><a href="module-Numero-Numero.html#esPar">esPar</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esPrimo"><a href="module-Numero-Numero.html#esPrimo">esPrimo</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#invertir"><a href="module-Numero-Numero.html#invertir">invertir</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#length"><a href="module-Numero-Numero.html#length">length</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#ordenar"><a href="module-Numero-Numero.html#ordenar">ordenar</a></li>
             
             </ul>
             
@@ -1617,6 +1635,118 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="cargarDigitos">
+            <a class="share-icon" href="#cargarDigitos"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                cargarDigitos
+            </span>
+            <span class="signature">(numero)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Carga los digitos de un número en el vector
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>numero</code></td>
+            
+            
+            <td class="type">
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                numero a cargar digitos</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="cargarElementoXElemento">
             <a class="share-icon" href="#cargarElementoXElemento"><span class="glyphicon glyphicon-link"></span></a>
             <span class="">
@@ -1867,6 +1997,128 @@
     
     
     
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="cargarSerie1">
+            <a class="share-icon" href="#cargarSerie1"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                cargarSerie1
+            </span>
+            <span class="signature">(numeroDeElementos)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Cargar El vector con la siguiente serie
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>numeroDeElementos</code></td>
+            
+            
+            <td class="type">
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Cantidad de elementos</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>const n1 = new Vector()
+n1.cargarSerie1(5)
+[1, 21, 321, 4321, 54321]</code></pre>
+    
+
     
 </dd>
 
@@ -3559,6 +3811,123 @@
             <td class="description last">
                 
                 Índice de fin del rango.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarNumero">
+            <a class="share-icon" href="#eliminarNumero"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarNumero
+            </span>
+            <span class="signature">(numero)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina un número del vector
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>numero</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                numero a eliminar del vector</td>
         </tr>
 	
 	
@@ -5897,146 +6266,6 @@
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="ordenarElementosDeUnSegmento">
-            <a class="share-icon" href="#ordenarElementosDeUnSegmento"><span class="glyphicon glyphicon-link"></span></a>
-            <span class="">
-                ordenarElementosDeUnSegmento
-            </span>
-            <span class="signature">(a, b)</span>
-            
-            
-            
-            
-        </h4>
-    
-        
-    </div>
-
-    
-</dt>
-<dd>
-    
-    
-    <div class="description">
-        Ordena los elementos de un segmento del vector.
-    </div>
-    
-
-    
-    
-    
-    
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>a</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                Índice de inicio del segmento.</td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>b</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                Índice de fin del segmento.</td>
-        </tr>
-	
-	
-	</tbody>
-</table>
-    
-    
-    
-<dl class="details">
-    
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</dl>
-
-    
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-    
-</dd>
-
-        
-            
-<dt>
-    <div class="nameContainer">
         <h4 class="name" id="pertenencia">
             <a class="share-icon" href="#pertenencia"><span class="glyphicon glyphicon-link"></span></a>
             <span class="">
@@ -8102,7 +8331,7 @@ la suma
 
         <footer class="content-size">
             <div class="footer">
-                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Thu Apr 11 2024 13:15:23 GMT-0400 (hora de Bolivia)
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Mon Apr 22 2024 19:46:17 GMT-0400 (hora de Bolivia)
             </div>
         </footer>
     </div>

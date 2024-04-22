@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Utilities Library</title>
     
-    <meta name="description" content="library for managing vectors, matrices, integers" />
+    <meta name="description" content="library to manage vectors, matrices, numbers and strings" />
     
         <meta name="keywords" content="Library" />
         <meta name="keyword" content="Library" />
@@ -32,7 +32,7 @@
 
     
     <script>
-    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Utilities Library","disqus":"","googleAnalytics":"","openGraph":{"title":"Utilities Library Docs","type":"website","image":"","site_name":"","url":""},"meta":{"title":"Utilities Library","description":"library for managing vectors, matrices, integers","keyword":"Library"},"linenums":true,"source":{"include":["./dist/"],"includePattern":".+\\.js(doc)?$","excludePattern":"(^|\\/|\\\\)_"},"opts":{"encoding":"utf8","recurse":true,"private":false,"lenient":true,"destination":"./docs","template":"./node_modules/@pixi/jsdoc-template"},"default":{}};
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Utilities Library","disqus":"","googleAnalytics":"","openGraph":{"title":"Utilities Library Docs","type":"website","image":"","site_name":"","url":""},"meta":{"title":"Utilities Library","description":"library to manage vectors, matrices, numbers and strings","keyword":"Library"},"linenums":true,"source":{"include":["./dist/"],"includePattern":".+\\.js(doc)?$","excludePattern":"(^|\\/|\\\\)_"},"opts":{"encoding":"utf8","recurse":true,"private":false,"lenient":true,"destination":"./docs","template":"./node_modules/@pixi/jsdoc-template"},"default":{}};
     </script>
     
 
@@ -190,9 +190,13 @@
             
                 <li class="parent  " data-name="Vector#cargar"><a href="Vector.html#cargar">cargar</a></li>
             
+                <li class="parent  " data-name="Vector#cargarDigitos"><a href="Vector.html#cargarDigitos">cargarDigitos</a></li>
+            
                 <li class="parent  " data-name="Vector#cargarElementoXElemento"><a href="Vector.html#cargarElementoXElemento">cargarElementoXElemento</a></li>
             
                 <li class="parent  " data-name="Vector#cargarFrecuencia"><a href="Vector.html#cargarFrecuencia">cargarFrecuencia</a></li>
+            
+                <li class="parent  " data-name="Vector#cargarSerie1"><a href="Vector.html#cargarSerie1">cargarSerie1</a></li>
             
                 <li class="parent  " data-name="Vector#cargarSerieAritmetica"><a href="Vector.html#cargarSerieAritmetica">cargarSerieAritmetica</a></li>
             
@@ -220,6 +224,8 @@
             
                 <li class="parent  " data-name="Vector#eliminarElementosDelVectorIndicandoLasPosiciones"><a href="Vector.html#eliminarElementosDelVectorIndicandoLasPosiciones">eliminarElementosDelVectorIndicandoLasPosiciones</a></li>
             
+                <li class="parent  " data-name="Vector#eliminarNumero"><a href="Vector.html#eliminarNumero">eliminarNumero</a></li>
+            
                 <li class="parent  " data-name="Vector#encontrarElementoMenosRepetidoEntreUnSegmento"><a href="Vector.html#encontrarElementoMenosRepetidoEntreUnSegmento">encontrarElementoMenosRepetidoEntreUnSegmento</a></li>
             
                 <li class="parent  " data-name="Vector#encontrarLaFrecuenciaDeDistribucioNumeroreUnSegmento"><a href="Vector.html#encontrarLaFrecuenciaDeDistribucioNumeroreUnSegmento">encontrarLaFrecuenciaDeDistribucioNumeroreUnSegmento</a></li>
@@ -245,8 +251,6 @@
                 <li class="parent  " data-name="Vector#ordenamientoPorIntercambio"><a href="Vector.html#ordenamientoPorIntercambio">ordenamientoPorIntercambio</a></li>
             
                 <li class="parent  " data-name="Vector#ordenamientoPorSeleccion"><a href="Vector.html#ordenamientoPorSeleccion">ordenamientoPorSeleccion</a></li>
-            
-                <li class="parent  " data-name="Vector#ordenarElementosDeUnSegmento"><a href="Vector.html#ordenarElementosDeUnSegmento">ordenarElementosDeUnSegmento</a></li>
             
                 <li class="parent  " data-name="Vector#pertenencia"><a href="Vector.html#pertenencia">pertenencia</a></li>
             
@@ -308,6 +312,54 @@
             
                 <li class="parent  " data-name="module:Cadena~Cadena#cargar"><a href="module-Cadena-Cadena.html#cargar">cargar</a></li>
             
+                <li class="parent  " data-name="module:Cadena~Cadena#contarCaracter"><a href="module-Cadena-Cadena.html#contarCaracter">contarCaracter</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#contarLetras"><a href="module-Cadena-Cadena.html#contarLetras">contarLetras</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#contarPalabras"><a href="module-Cadena-Cadena.html#contarPalabras">contarPalabras</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#contarVocales"><a href="module-Cadena-Cadena.html#contarVocales">contarVocales</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#descargar"><a href="module-Cadena-Cadena.html#descargar">descargar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminar"><a href="module-Cadena-Cadena.html#eliminar">eliminar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarCaracter"><a href="module-Cadena-Cadena.html#eliminarCaracter">eliminarCaracter</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarHastaPrimerPalabra"><a href="module-Cadena-Cadena.html#eliminarHastaPrimerPalabra">eliminarHastaPrimerPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarLetras"><a href="module-Cadena-Cadena.html#eliminarLetras">eliminarLetras</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarNumeros"><a href="module-Cadena-Cadena.html#eliminarNumeros">eliminarNumeros</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarPrimerLetraDeCadaPalabra"><a href="module-Cadena-Cadena.html#eliminarPrimerLetraDeCadaPalabra">eliminarPrimerLetraDeCadaPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarPrimerPalabra"><a href="module-Cadena-Cadena.html#eliminarPrimerPalabra">eliminarPrimerPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarUltimaLetraDeCadaPalabra"><a href="module-Cadena-Cadena.html#eliminarUltimaLetraDeCadaPalabra">eliminarUltimaLetraDeCadaPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#eliminarVocales"><a href="module-Cadena-Cadena.html#eliminarVocales">eliminarVocales</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#esPalindromo"><a href="module-Cadena-Cadena.html#esPalindromo">esPalindromo</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#insertar"><a href="module-Cadena-Cadena.html#insertar">insertar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#invertir"><a href="module-Cadena-Cadena.html#invertir">invertir</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#palabraMasLarga"><a href="module-Cadena-Cadena.html#palabraMasLarga">palabraMasLarga</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#palabraMenosLarga"><a href="module-Cadena-Cadena.html#palabraMenosLarga">palabraMenosLarga</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#primerPalabra"><a href="module-Cadena-Cadena.html#primerPalabra">primerPalabra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena#remplazar"><a href="module-Cadena-Cadena.html#remplazar">remplazar</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena.esDigito"><a href="module-Cadena-Cadena.html#.esDigito">esDigito</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena.esLetra"><a href="module-Cadena-Cadena.html#.esLetra">esLetra</a></li>
+            
+                <li class="parent  " data-name="module:Cadena~Cadena.esVocal"><a href="module-Cadena-Cadena.html#.esVocal">esVocal</a></li>
+            
             </ul>
             
             <ul class="events itemMembers">
@@ -344,9 +396,27 @@
             
                 <li class="parent  " data-name="module:Matriz~Matriz#cargar"><a href="module-Matriz-Matriz.html#cargar">cargar</a></li>
             
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarCaracol"><a href="module-Matriz-Matriz.html#cargarCaracol">cargarCaracol</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarCuadradoMagico"><a href="module-Matriz-Matriz.html#cargarCuadradoMagico">cargarCuadradoMagico</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiagonalesPrincipalesTriangularInferiorIzquierda"><a href="module-Matriz-Matriz.html#cargarDiagonalesPrincipalesTriangularInferiorIzquierda">cargarDiagonalesPrincipalesTriangularInferiorIzquierda</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiagonalesSecundarias"><a href="module-Matriz-Matriz.html#cargarDiagonalesSecundarias">cargarDiagonalesSecundarias</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiagonalesSecundariasUpBottomUp"><a href="module-Matriz-Matriz.html#cargarDiagonalesSecundariasUpBottomUp">cargarDiagonalesSecundariasUpBottomUp</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarDiana"><a href="module-Matriz-Matriz.html#cargarDiana">cargarDiana</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarL"><a href="module-Matriz-Matriz.html#cargarL">cargarL</a></li>
+            
                 <li class="parent  " data-name="module:Matriz~Matriz#cargarSerieAritmetica"><a href="module-Matriz-Matriz.html#cargarSerieAritmetica">cargarSerieAritmetica</a></li>
             
                 <li class="parent  " data-name="module:Matriz~Matriz#cargarSerieGeometrica"><a href="module-Matriz-Matriz.html#cargarSerieGeometrica">cargarSerieGeometrica</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarViboraPorColumnas"><a href="module-Matriz-Matriz.html#cargarViboraPorColumnas">cargarViboraPorColumnas</a></li>
+            
+                <li class="parent  " data-name="module:Matriz~Matriz#cargarViboraPorFilas"><a href="module-Matriz-Matriz.html#cargarViboraPorFilas">cargarViboraPorFilas</a></li>
             
                 <li class="parent  " data-name="module:Matriz~Matriz#contarCapicuasColumna"><a href="module-Matriz-Matriz.html#contarCapicuasColumna">contarCapicuasColumna</a></li>
             
@@ -465,58 +535,6 @@
                 <li class="parent  " data-name="module:Matriz~Matriz#verificarTodosDiferentes"><a href="module-Matriz-Matriz.html#verificarTodosDiferentes">verificarTodosDiferentes</a></li>
             
                 <li class="parent  " data-name="module:Matriz~Matriz#verificarTodosIguales"><a href="module-Matriz-Matriz.html#verificarTodosIguales">verificarTodosIguales</a></li>
-            
-            </ul>
-            
-            <ul class="events itemMembers">
-            
-            </ul>
-            
-        </li>
-    
-        <li class="item" data-name="module:Numero~Numero">
-            <span class="title  ">
-                
-                
-                    <a href="module-Numero-Numero.html">module:Numero~Numero</a>
-                
-            </span>
-            
-            <ul class="members itemMembers">
-            
-            </ul>
-            
-            <ul class="typedefs itemMembers">
-            
-            </ul>
-            
-            <ul class="typedefs itemMembers">
-            
-            </ul>
-            
-            <ul class="methods itemMembers">
-            
-            <span class="subtitle">Methods</span>
-            
-                <li class="parent  " data-name="module:Numero~Numero#cargar"><a href="module-Numero-Numero.html#cargar">cargar</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#descargar"><a href="module-Numero-Numero.html#descargar">descargar</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esCapicua"><a href="module-Numero-Numero.html#esCapicua">esCapicua</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esCuadradoPerfecto"><a href="module-Numero-Numero.html#esCuadradoPerfecto">esCuadradoPerfecto</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esFibonacci"><a href="module-Numero-Numero.html#esFibonacci">esFibonacci</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esPar"><a href="module-Numero-Numero.html#esPar">esPar</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#esPrimo"><a href="module-Numero-Numero.html#esPrimo">esPrimo</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#invertir"><a href="module-Numero-Numero.html#invertir">invertir</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#length"><a href="module-Numero-Numero.html#length">length</a></li>
-            
-                <li class="parent  " data-name="module:Numero~Numero#ordenar"><a href="module-Numero-Numero.html#ordenar">ordenar</a></li>
             
             </ul>
             
@@ -754,6 +772,2517 @@
     
 </dd>
 
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="contarCaracter">
+            <a class="share-icon" href="#contarCaracter"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                contarCaracter
+            </span>
+            <span class="signature">(char)</span><span class="type-signature">number</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Cuenta la cantidad de caracteres en la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>char</code></td>
+            
+            
+            <td class="type">
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                caracter</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        number
+                        
+                    
+            </td>
+            <td class="description last">El número de caracteres</td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="contarLetras">
+            <a class="share-icon" href="#contarLetras"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                contarLetras
+            </span>
+            <span class="signature">()</span><span class="type-signature">number</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Cuenta la cantidad de letras en la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        number
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="contarPalabras">
+            <a class="share-icon" href="#contarPalabras"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                contarPalabras
+            </span>
+            <span class="signature">()</span><span class="type-signature">number</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Cuenta la cantidad de palabras
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        number
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="contarVocales">
+            <a class="share-icon" href="#contarVocales"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                contarVocales
+            </span>
+            <span class="signature">()</span><span class="type-signature">number</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Cuenta la cantidad de vocales en la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        number
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="descargar">
+            <a class="share-icon" href="#descargar"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                descargar
+            </span>
+            <span class="signature">()</span><span class="type-signature">string</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Retorna la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        string
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminar">
+            <a class="share-icon" href="#eliminar"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminar
+            </span>
+            <span class="signature">(inicio, arrastre)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		<th>Default</th>
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>inicio</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    0
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                valor inicial</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>arrastre</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                valor de arrastre</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarCaracter">
+            <a class="share-icon" href="#eliminarCaracter"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarCaracter
+            </span>
+            <span class="signature">(char)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina los caracteres de la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>char</code></td>
+            
+            
+            <td class="type">
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                caracter</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarHastaPrimerPalabra">
+            <a class="share-icon" href="#eliminarHastaPrimerPalabra"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarHastaPrimerPalabra
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina hasta primer palabra
+```js
+ x = "hola a todos" => " a todos"
+ x = "123hola a todos" => " a todos"
+```
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarLetras">
+            <a class="share-icon" href="#eliminarLetras"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarLetras
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina las letras de la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarNumeros">
+            <a class="share-icon" href="#eliminarNumeros"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarNumeros
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina los números de la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarPrimerLetraDeCadaPalabra">
+            <a class="share-icon" href="#eliminarPrimerLetraDeCadaPalabra"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarPrimerLetraDeCadaPalabra
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina la primera letra de cada palabra
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarPrimerPalabra">
+            <a class="share-icon" href="#eliminarPrimerPalabra"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarPrimerPalabra
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina la primer palabra
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarUltimaLetraDeCadaPalabra">
+            <a class="share-icon" href="#eliminarUltimaLetraDeCadaPalabra"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarUltimaLetraDeCadaPalabra
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina la última letra de cada palabra
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="eliminarVocales">
+            <a class="share-icon" href="#eliminarVocales"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                eliminarVocales
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Elimina las vocales de la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="esPalindromo">
+            <a class="share-icon" href="#esPalindromo"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                esPalindromo
+            </span>
+            <span class="signature">()</span><span class="type-signature">boolean</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Verifica si una cadena es palindromo
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        boolean
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="insertar">
+            <a class="share-icon" href="#insertar"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                insertar
+            </span>
+            <span class="signature">(cadena, posicion)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Inserta una cadena en una posicion
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>cadena</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                cadena a insertar</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>posicion</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                posicion a insertar</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="invertir">
+            <a class="share-icon" href="#invertir"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                invertir
+            </span>
+            <span class="signature">()</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Invierte la cadena
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="palabraMasLarga">
+            <a class="share-icon" href="#palabraMasLarga"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                palabraMasLarga
+            </span>
+            <span class="signature">()</span><span class="type-signature">string</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Retorna la palabra más larga
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        string
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="palabraMenosLarga">
+            <a class="share-icon" href="#palabraMenosLarga"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                palabraMenosLarga
+            </span>
+            <span class="signature">()</span><span class="type-signature">string</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Retorna la palabra menos larga
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        string
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="primerPalabra">
+            <a class="share-icon" href="#primerPalabra"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                primerPalabra
+            </span>
+            <span class="signature">()</span><span class="type-signature">string</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Retorna la primer palabra
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        string
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="remplazar">
+            <a class="share-icon" href="#remplazar"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                remplazar
+            </span>
+            <span class="signature">(cadena, posicion)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Remplaza un caracter por una cadena en una posicion
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>cadena</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                cadena a insertar</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>posicion</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                posicion a insertar</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".esDigito">
+            <a class="share-icon" href="#.esDigito"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                module:Cadena~Cadena.esDigito
+            </span>
+            <span class="signature">(char)</span><span class="type-signature">boolean</span>
+            
+            <span class="access-signature">static</span>
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Verifica si un caracter es digito
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>char</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">char</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                caracter</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        boolean
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".esLetra">
+            <a class="share-icon" href="#.esLetra"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                module:Cadena~Cadena.esLetra
+            </span>
+            <span class="signature">(char)</span><span class="type-signature">boolean</span>
+            
+            <span class="access-signature">static</span>
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Verifica si un caracter es una letra
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>char</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">char</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                caracter</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        boolean
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".esVocal">
+            <a class="share-icon" href="#.esVocal"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                module:Cadena~Cadena.esVocal
+            </span>
+            <span class="signature">(char)</span><span class="type-signature">boolean</span>
+            
+            <span class="access-signature">static</span>
+            
+            
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Verifica si un caracter es una Vocal
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>char</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">char</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                caracter</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        boolean
+                        
+                    
+            </td>
+            <td class="description last"></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
         </dl>
     
     
@@ -774,7 +3303,7 @@
 
         <footer class="content-size">
             <div class="footer">
-                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Thu Apr 11 2024 13:15:23 GMT-0400 (hora de Bolivia)
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Mon Apr 22 2024 19:46:17 GMT-0400 (hora de Bolivia)
             </div>
         </footer>
     </div>
